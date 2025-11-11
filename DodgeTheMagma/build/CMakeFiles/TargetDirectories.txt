@@ -1,0 +1,3 @@
+/home/a/project/DodgeTheMagma/build/CMakeFiles/DodgeTheMagma.dir
+/home/a/project/DodgeTheMagma/build/CMakeFiles/edit_cache.dir
+/home/a/project/DodgeTheMagma/build/CMakeFiles/rebuild_cache.dir
