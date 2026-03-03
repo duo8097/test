@@ -1,15 +1,14 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-    long long a, b, x;
-    cin >> a >> b >> x;
-    if (a >= b) {
-        cout << 0 << endl;
-    } else {
-        long long res = (b - a + x - 1) / x;
-        cout << res;
+    long long k, n = 0, c = 0;
+    cin >> k;
+    while (c < k) {
+        n++;
+        if (n % 3 != 0 && n % 10 != 3) c++;
     }
+    cout << n;
 
     return 0;
 }

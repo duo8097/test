@@ -1,8 +1,3 @@
-a = input()
-l = list(a)
-l.sort()
-print(l)
-if "A" in l and "B" in l:
-    print("YES")
-else:
-    print("NO")
+n = int(input())
+res = n * n + 3 * n + 1
+print(res)
